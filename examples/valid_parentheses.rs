@@ -4,6 +4,7 @@ pub fn is_valid(s: String) -> bool {
     if s.len() == 0 {
         return true;
     } else {
+        
         let mut i = 0;
         let mut br = 0;
         let mut left = 0;
